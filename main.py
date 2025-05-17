@@ -58,8 +58,8 @@ def process_subs(f, subs, s: int, fps: int, i: int):
 
 def main():
     fps: int = 30
-    R_X: int = 480 // 20
-    R_Y: int = 360 // 20
+    R_X: int = 480 // 15
+    R_Y: int = 360 // 15
     S_H: int = 4 # lines of subs to add (metadata reasons)
 
 
